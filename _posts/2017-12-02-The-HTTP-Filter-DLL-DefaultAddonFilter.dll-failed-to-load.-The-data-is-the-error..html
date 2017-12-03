@@ -1,0 +1,9 @@
+---           
+layout: post
+title: The HTTP Filter DLL DefaultAddonFilter.dll failed to load.  The data is the error.
+date: 2017-12-02 10:25:12 UTC
+updated: 2017-12-02 10:25:12 UTC
+comments: false
+categories: Microsoft Dynamics CRM 2015
+---
+Today, I had this error on my Dynamics CRM server and tried solution in this link (http://ms-crm-2011-beta.blogspot.com/2011/09/could-not-load-all-isapi-filters-for.html) but the error still existed. Maybe this is not my situation.<br />Then I opened "Uninstall or change a program" of Windows and recognized that the library "<b>Microsoft Visual C++ 2013 Redistributable(x64)</b>" was missing. So I downloaded it from Microsoft download website and installed it. And it fixed the error.

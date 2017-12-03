@@ -1,0 +1,9 @@
+---           
+layout: post
+title: Test autocomplete function with Selenium
+date: 2011-08-01 09:59:17 UTC
+updated: 2011-08-01 09:59:17 UTC
+comments: false
+categories: 
+---
+Command "<i>type</i>" doesn't trigger the autocomplete box.<br /><br /><b><u>Solution:</u></b><br />To trigger the autocomplete box, use "<i>typeKeys</i>" after "<i>type</i>" command.<br /><br /><i>type &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</i>id=txtTicker&nbsp;SS<br /><i>typeKeys</i><i>&nbsp; &nbsp;</i>id=txtTicker&nbsp;I<br /><div><br /></div>
